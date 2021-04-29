@@ -1,6 +1,7 @@
 //load all required modules
 require('dotenv').config();
-let app = require("express")();
+let express = require("express");
+let app = express();
 let bodyParser = require("body-parser");
 let mongoose = require("mongoose");
 let cors = require('cors');
